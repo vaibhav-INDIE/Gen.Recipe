@@ -1,4 +1,3 @@
-// AIzaSyAWfoSjAEfNGuD_S-20EybVZomy4Wxw65M
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'dart:convert';
 import 'dart:io';
