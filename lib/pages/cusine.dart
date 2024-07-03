@@ -22,28 +22,20 @@ class _CusineState extends State<Cusine> {
     _sendImagesToApi();
   }
 
-  Future<void> _sendImagesToApi() async {
+    Future<void> _sendImagesToApi() async {
     try {
       final response = await sendImagesToApi(widget.images);
-      final jsonData = json.decode(response as String);  // Cast response to String
-      if (jsonData is List) {
-        setState(() {
-          _responseData = List<Map<String, dynamic>>.from(jsonData);
-        });
-      } else {
-        // Handle unexpected response format
-        setState(() {
-          _responseData = [];
-        });
-        // Optionally, show an error message or handle the error appropriately
-        print("unexpected type");
-      }
+      // No need to decode here! The response is already in the correct format.
+      setState(() {
+        _responseData = response;
+      });
     } catch (e) {
       // Handle exceptions
       setState(() {
         _responseData = [];
       });
       // Optionally, show an error message or handle the error appropriately
+      print("Error fetching recipes: $e");
     }
   }
 
