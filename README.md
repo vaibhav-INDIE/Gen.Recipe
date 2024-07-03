@@ -1,7 +1,7 @@
 # Gen.Recipe: Custom AI Recipe Generator
 
 <p align="center">
-    <img src="public/app-icon.png" width="150"> 
+    <img src="img/Designer.jpeg" width="150"> 
 </p>
 
 ## Project Description
@@ -16,12 +16,13 @@ Tired of scrolling through endless recipe websites? **Gen.Recipe** is your perso
 **Demo** 
 
 <p align="center">
-    <img src="public/screenshot1.png" width="200"> 
-    <img src="public/screenshot2.png" width="200"> 
-    <img src="public/screenshot3.png" width="200"> 
-    <img src="public/screenshot4.png" width="200"> 
-    <img src="public/screenshot5.png" width="200"> 
-    <img src="public/screenshot6.png" width="200"> 
+    <img src="img/screenshot1.jpg" width="200"> 
+    <img src="img/screenshot2.jpg" width="200"> 
+    <img src="img/screenshot3.jpg" width="200"> 
+    <img src="img/screenshot4.jpg" width="200"> 
+    <img src="img/screenshot5.jpg" width="200"> 
+    <img src="img/screenshot6.jpg" width="200"> 
+     <img src="img/screenshot7.jpg" width="200"> 
 </p>
 
 
@@ -59,5 +60,5 @@ This project is built using Flutter and Dart. To get started, you'll need to hav
 
 ## Contributing
 
-We welcome contributions! Please open an issue or pull request.
+I welcome contributions! Please open an issue or pull request.
 Intel Submission by Vaibhav Jain
